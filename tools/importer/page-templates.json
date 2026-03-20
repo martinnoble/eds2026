@@ -1,0 +1,122 @@
+{
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": [
+        "https://www.martinnoble.com/"
+      ],
+      "description": "Personal homepage with hero section featuring bio, avatar image, and social/contact links in footer navigation",
+      "blocks": [
+        {
+          "name": "columns-bio",
+          "instances": [
+            ".row.row-cols-lg-2.row-cols-1"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Main Content",
+          "selector": ".app-container.container",
+          "style": null,
+          "blocks": [
+            "columns-bio"
+          ],
+          "defaultContent": [
+            ".text-center h1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "blacksmithing",
+      "urls": [
+        "https://www.martinnoble.com/blacksmithing"
+      ],
+      "description": "Portfolio gallery page with centered heading, intro paragraph, and card grid showing forged items with images, titles, and descriptions",
+      "blocks": [
+        {
+          "name": "cards-gallery",
+          "instances": [
+            ".row.row-cols-lg-3"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Main Content",
+          "selector": ".app-container.container",
+          "style": null,
+          "blocks": [
+            "cards-gallery"
+          ],
+          "defaultContent": [
+            ".text-center h1",
+            ".app-container.container > p"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "jewellery",
+      "urls": [
+        "https://www.martinnoble.com/jewellery"
+      ],
+      "description": "Portfolio gallery page with centered heading, intro paragraph, and card grid showing handmade jewellery with images, titles, and descriptions",
+      "blocks": [
+        {
+          "name": "cards-gallery",
+          "instances": [
+            ".row.row-cols-lg-3"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Main Content",
+          "selector": ".app-container.container",
+          "style": null,
+          "blocks": [
+            "cards-gallery"
+          ],
+          "defaultContent": [
+            ".text-center h1",
+            ".app-container.container > p"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "certifications",
+      "urls": [
+        "https://www.martinnoble.com/certifications"
+      ],
+      "description": "Certifications page with centered heading and card grid showing professional badges with images, titles, subtitles, verification links, and date ranges",
+      "blocks": [
+        {
+          "name": "cards-certifications",
+          "instances": [
+            ".row.row-cols-xl-4"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Main Content",
+          "selector": ".app-container.container",
+          "style": null,
+          "blocks": [
+            "cards-certifications"
+          ],
+          "defaultContent": [
+            ".text-center h1"
+          ]
+        }
+      ]
+    }
+  ]
+}

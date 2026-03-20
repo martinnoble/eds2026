@@ -1,0 +1,11 @@
+{
+  "status": "success",
+  "url": "https://www.martinnoble.com/jewellery",
+  "path": "jewellery",
+  "timestamp": "2026-03-20T10:30:19.080Z",
+  "title": "Jewellery | Martin Noble",
+  "template": "jewellery",
+  "blocks": [
+    "cards-gallery"
+  ]
+}

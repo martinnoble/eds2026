@@ -1,0 +1,11 @@
+{
+  "status": "success",
+  "url": "https://www.martinnoble.com/blacksmithing",
+  "path": "blacksmithing",
+  "timestamp": "2026-03-20T10:04:43.610Z",
+  "title": "Blacksmithing | Martin Noble",
+  "template": "blacksmithing",
+  "blocks": [
+    "cards-gallery"
+  ]
+}

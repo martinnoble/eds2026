@@ -1,0 +1,11 @@
+{
+  "status": "success",
+  "url": "https://www.martinnoble.com/certifications",
+  "path": "certifications",
+  "timestamp": "2026-03-20T10:42:23.276Z",
+  "title": "Certifications | Martin Noble",
+  "template": "certifications",
+  "blocks": [
+    "cards-certifications"
+  ]
+}
