@@ -1,20 +1,32 @@
 footer {
   background-color: var(--light-color);
-  font-size: var(--body-font-size-xs);
+  font-size: var(--body-font-size-s);
 }
 
 footer .footer > div {
   margin: auto;
   max-width: 1200px;
-  padding: 40px 24px 24px;
+  padding: 16px 24px;
 }
 
 footer .footer p {
   margin: 0;
+  text-align: center;
+}
+
+footer .footer a:any-link {
+  color: var(--dark-color);
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+footer .footer a:hover {
+  color: var(--text-color);
+  text-decoration: underline;
 }
 
 @media (width >= 900px) {
   footer .footer > div {
-    padding: 40px 32px 24px;
+    padding: 16px 32px;
   }
 }

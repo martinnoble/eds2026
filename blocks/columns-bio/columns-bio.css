@@ -1,0 +1,40 @@
+/* columns-bio block - two-column bio layout (avatar + text) */
+.columns-bio > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.columns-bio img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.columns-bio > div > div {
+  order: 1;
+  padding: 0 12px;
+}
+
+.columns-bio > div > .columns-bio-img-col {
+  order: 0;
+  padding: 0 12px;
+}
+
+.columns-bio > div > .columns-bio-img-col img {
+  display: block;
+}
+
+@media (width >= 900px) {
+  .columns-bio > div {
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 0;
+  }
+
+  .columns-bio > div > div {
+    flex: 0 0 50%;
+    max-width: 50%;
+    order: unset;
+  }
+}

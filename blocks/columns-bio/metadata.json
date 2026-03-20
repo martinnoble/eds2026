@@ -1,0 +1,39 @@
+{
+  "variantName": "columns-bio",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-03-20T09:17:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.martinnoble.com/",
+    "originPage": "personal homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "bio",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + paragraphs with links",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "about/bio pages with avatar and text",
+      "team member profile pages",
+      "personal introduction sections"
+    ],
+    "notSuitableFor": [
+      "product comparison layouts",
+      "multi-image galleries",
+      "feature grids"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-20T09:17:00.000Z"
+  }
+}

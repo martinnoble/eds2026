@@ -1,0 +1,11 @@
+{
+  "status": "success",
+  "url": "https://www.martinnoble.com/",
+  "path": "index",
+  "timestamp": "2026-03-20T09:23:04.241Z",
+  "title": "Home | Martin Noble",
+  "template": "homepage",
+  "blocks": [
+    "columns-bio"
+  ]
+}

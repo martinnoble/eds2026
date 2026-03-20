@@ -1,0 +1,108 @@
+.cards-certifications > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+.cards-certifications > ul > li {
+  border: 1px solid rgb(0 0 0 / 12.5%);
+  border-radius: 4px;
+  background-color: var(--light-color);
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards-certifications .cards-certifications-card-image {
+  line-height: 0;
+}
+
+.cards-certifications .cards-certifications-card-image p {
+  margin: 0;
+}
+
+.cards-certifications > ul > li img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.cards-certifications .cards-certifications-card-footer {
+  padding: 8px 16px;
+  border-top: 1px solid rgb(0 0 0 / 12.5%);
+  background-color: rgb(0 0 0 / 3%);
+  color: var(--dark-color);
+  font-size: var(--body-font-size-m);
+}
+
+.cards-certifications .cards-certifications-card-footer p {
+  margin: 0;
+}
+
+.cards-certifications .cards-certifications-card-body {
+  padding: 16px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards-certifications .cards-certifications-card-body p {
+  margin: 0 0 8px;
+}
+
+.cards-certifications .cards-certifications-card-body p:last-child {
+  margin-bottom: 0;
+  margin-top: auto;
+  padding-top: 8px;
+}
+
+.cards-certifications .cards-certifications-card-body p strong {
+  font-size: var(--heading-font-size-m);
+  font-weight: 500;
+}
+
+.cards-certifications .cards-certifications-card-body p em {
+  font-style: normal;
+  color: var(--dark-color);
+  font-size: var(--body-font-size-s);
+}
+
+.cards-certifications .cards-certifications-card-body a {
+  display: inline-block;
+  background-color: #198754;
+  border: 1px solid #198754;
+  color: #fff;
+  border-radius: 4px;
+  padding: 6px 12px;
+  font-size: var(--body-font-size-m);
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.cards-certifications .cards-certifications-card-body a:hover {
+  background-color: #157347;
+  border-color: #146c43;
+  color: #fff;
+}
+
+@media (width >= 600px) {
+  .cards-certifications > ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width >= 900px) {
+  .cards-certifications > ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (width >= 1200px) {
+  .cards-certifications > ul {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
